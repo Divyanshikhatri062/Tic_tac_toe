@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 }
 body{
-    background-color: #548;
+    background-color: rgb(250, 248, 144);
     text-align: center;
 }
 .container{
@@ -29,11 +29,11 @@ align-items: center;
     box-shadow: 0 0 1rem rgba(0,0,0,0.4);
     font-size: 8vmin;
     color: black;
-    background-color:yellowgreen;
+    background-color:rgb(213, 210, 235);
 }
 #re{
     padding: 1rem;
-    font: size 1.25em;
+    font-size: 1.25rem;
     color: white;
     background-color: black;
     border-radius: 1rem;
@@ -48,11 +48,16 @@ align-items: center;
     border: none;
 }
 #msg{
-    color:wheat ;
-    font-size: 8vmin;
+    color:rgb(7, 5, 1) ;
+    font-size: 5vmin;
 }
 .msg-container{
-    height: 30vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
 }
 .hide{
     display: none;
